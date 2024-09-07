@@ -2,7 +2,7 @@ namespace Singleton
 {
     public sealed class Singleton
     {
-        private static Singleton? instance;
+        private static volatile Singleton? instance;//volatile keyword help to sort out instruction reordering issue and L1 cache issue
         private static int counter;
         private static object lockObject = new object();
         private Singleton()
