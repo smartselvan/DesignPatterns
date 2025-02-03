@@ -10,6 +10,10 @@ namespace DesignPatterns
     {
         public static void Main(string[] args)
         {
+
+            Console.WriteLine("----Creational Patterns----\n");
+            Console.WriteLine("---------------------------------------------------------");
+
             Console.WriteLine("----Singleton Pattern----\n");
             SingletonProgram.Call();
             Console.WriteLine("---------------------------------------------------------");
@@ -28,6 +32,10 @@ namespace DesignPatterns
 
             Console.WriteLine("\n----Builder Pattern----\n");
             BuilderProgram.Call();
+            Console.WriteLine("---------------------------------------------------------");
+
+
+            Console.WriteLine("----Structural Patterns----\n");
             Console.WriteLine("---------------------------------------------------------");
 
         }
