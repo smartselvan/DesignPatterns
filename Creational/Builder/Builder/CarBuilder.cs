@@ -1,6 +1,6 @@
 ﻿using DesignPatterns.Creational.Builder.Product;
 
-namespace DesignPatterns.Creational.Builder
+namespace DesignPatterns.Creational.Builder.Builder
 {
     public class CarBuilder : ICarBuilder
     {

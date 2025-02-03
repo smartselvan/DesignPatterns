@@ -1,8 +1,9 @@
-﻿using DesignPatterns.Creational.Builder.Product;
+﻿using DesignPatterns.Creational.Builder.Builder;
+using DesignPatterns.Creational.Builder.Product;
 
 namespace DesignPatterns.Creational.Builder
 {
-    internal class BuilderProgram
+    public class BuilderPattern
     {
         public static void Call()
         {

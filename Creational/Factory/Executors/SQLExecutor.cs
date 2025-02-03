@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.Factory.Executors
 {
-    internal class SQLExecutor : IExecutor
+    public class SQLExecutor : IExecutor
     {
         public void Execute()
         {

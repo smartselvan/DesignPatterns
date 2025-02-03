@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.Factory.Executors
 {
-    internal class RestAPIExecutor : IExecutor
+    public class RestAPIExecutor : IExecutor
     {
         public void Execute()
         {

@@ -1,6 +1,6 @@
 namespace DesignPatterns.Creational.Singleton
 {
-    public class SingletonProgram
+    public class SingletonPattern
     {
         public static void Call()
         {

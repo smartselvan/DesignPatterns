@@ -3,7 +3,7 @@ using DesignPatterns.Creational.Factory.Executors;
 
 namespace DesignPatterns.Creational.AbstractFactory.ExecutorFactory
 {
-    internal class RemoteExecutorFactory : IExecutorFactory
+    public class RemoteExecutorFactory : IExecutorFactory
     {
         public IExecutor GetExecutor(ExecutorType executorType)
         {

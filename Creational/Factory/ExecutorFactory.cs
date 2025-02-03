@@ -2,7 +2,7 @@
 
 namespace DesignPatterns.Creational.Factory
 {
-    internal class ExecutorFactory
+    public class ExecutorFactory
     {
         public ExecutorFactory()
         {

@@ -4,7 +4,7 @@ using DesignPatterns.Creational.Factory.Executors;
 
 namespace DesignPatterns.Creational.AbstractFactory
 {
-    internal class AbstractFactoryProgram
+    public class AbstractFactoryPattern
     {
         public static void Call()
         {

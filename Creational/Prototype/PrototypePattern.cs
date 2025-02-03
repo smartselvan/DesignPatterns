@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.Prototype
 {
-    public class PrototypeProgram
+    public class PrototypePattern
     {
         public static void Call()
         {

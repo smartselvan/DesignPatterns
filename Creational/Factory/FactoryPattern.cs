@@ -2,7 +2,7 @@
 
 namespace DesignPatterns.Creational.Factory
 {
-    public class FactoryProgram
+    public class FactoryPattern
     {
         public static void Call()
         {

@@ -3,6 +3,7 @@ using DesignPatterns.Creational.Builder;
 using DesignPatterns.Creational.Factory;
 using DesignPatterns.Creational.Prototype;
 using DesignPatterns.Creational.Singleton;
+using DesignPatterns.Structural.Adapter;
 
 namespace DesignPatterns
 {
@@ -36,6 +37,10 @@ namespace DesignPatterns
 
 
             Console.WriteLine("----Structural Patterns----\n");
+            Console.WriteLine("---------------------------------------------------------");
+
+            Console.WriteLine("\n----Adapter Pattern----\n");
+            AdapterPattern.Call();
             Console.WriteLine("---------------------------------------------------------");
 
         }
