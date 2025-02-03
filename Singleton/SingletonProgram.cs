@@ -1,3 +1,5 @@
+using DesignPatterns.Singleton;
+
 namespace Singleton
 {
     public class SingletonProgram
@@ -6,19 +8,27 @@ namespace Singleton
         {
             Parallel.Invoke(
                 MessageFromTeacher,
-                MessageFromStudent
+                MessageFromStudent,
+                MessageFromStudent1
             );
         }
 
         private static void MessageFromTeacher()
         {
-            Singleton teacherInstance = Singleton.Instance;
+            Logger teacherInstance = Logger.Instance;
             teacherInstance.LogMessage("Message from Teacher");
         }
+
         private static void MessageFromStudent()
         {
-            Singleton studentInstance = Singleton.Instance;
+            Logger studentInstance = Logger.Instance;
             studentInstance.LogMessage("Message from Student");
+        }
+
+        private static void MessageFromStudent1()
+        {
+            Logger studentInstance = Logger.Instance;
+            studentInstance.LogMessage("Message from Student1");
         }
     }
 }
