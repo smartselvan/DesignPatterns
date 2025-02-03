@@ -15,23 +15,23 @@ namespace DesignPatterns
             Console.WriteLine("---------------------------------------------------------");
 
             Console.WriteLine("----Singleton Pattern----\n");
-            SingletonProgram.Call();
+            SingletonPattern.Call();
             Console.WriteLine("---------------------------------------------------------");
 
             Console.WriteLine("\n----Prototype Pattern----\n");
-            PrototypeProgram.Call();
+            PrototypePattern.Call();
             Console.WriteLine("---------------------------------------------------------");
 
             Console.WriteLine("\n----Factory Pattern----\n");
-            FactoryProgram.Call();
+            FactoryPattern.Call();
             Console.WriteLine("---------------------------------------------------------");
 
             Console.WriteLine("\n----Abstract Factory Pattern----\n");
-            AbstractFactoryProgram.Call();
+            AbstractFactoryPattern.Call();
             Console.WriteLine("---------------------------------------------------------");
 
             Console.WriteLine("\n----Builder Pattern----\n");
-            BuilderProgram.Call();
+            BuilderPattern.Call();
             Console.WriteLine("---------------------------------------------------------");
 
 
