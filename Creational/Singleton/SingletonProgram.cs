@@ -1,6 +1,4 @@
-using DesignPatterns.Singleton;
-
-namespace Singleton
+namespace DesignPatterns.Creational.Singleton
 {
     public class SingletonProgram
     {
