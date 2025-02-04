@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Creational\Builder\jquiym3f.ud3~" />
     <None Remove="Creational\Builder\lmwzv2rp.etf~" />
   </ItemGroup>
 
