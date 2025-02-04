@@ -7,8 +7,5 @@ namespace DesignPatterns.Creational.Builder.Builder
         void AddMVPParts();
         void AddExtraParts();
         void AddLuxuryItems();
-        Car BuildBasicCar();
-        Car BuildMediumEndCar();
-        Car BuildLuxuryCar();
     }
 }
